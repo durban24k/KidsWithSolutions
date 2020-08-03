@@ -363,6 +363,7 @@ p {
 }
 .directors .card:hover{
 	height:480px;
+	cursor:pointer;
 }
 .directors .card .imgBx{
 	position:relative;
