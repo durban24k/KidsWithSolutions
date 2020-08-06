@@ -406,6 +406,75 @@ p {
 }
 /* End Projects section */
 
+/* Partners Section */
+.client-wrap{
+	width:90% auto;
+	height:auto;
+	text-align:center;
+	
+}
+.client-wrap h1{
+	font-size:60px;
+	color:rgb(77, 0, 87);
+	padding-top:50px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:lighter;
+	text-transform:uppercase;
+
+}
+.client-wrap hr{
+	width:100px;
+	height:5px;
+	border:none;
+	background:rgb(77, 0, 87);
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.client-in{
+	width:100%;
+	height:auto;
+	padding-bottom:70px;
+}
+.client-in ul{
+	padding:0;
+	margin:0;
+}
+.client-in ul li{
+	list-style: none;
+	display: inline-block;
+	width:250px;
+	height:180px;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+	margin:10px;
+	box-shadow:0px 0px 0px -7px rgb(51, 51, 51);
+}
+.client-in ul li img{
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+.client-in ul li img:nth-child(1){
+	transform:translateY(0);
+	transition: .5s;
+}
+.client-in ul li img:nth-child(2){
+	transform:translateY(0);
+	transition: .5s;
+}
+/* Hover */
+.client-in ul li:hover img:nth-child(1){
+	transform:translateY(-100%);
+	transition: .5s;
+}
+.client-in ul li:hover img:nth-child(2){
+	transform:translateY(-100%);
+	transition: .5s;
+}
+/* End Partners Secion */
+
 /* About Section */
 #about .about {
 	flex-direction: column-reverse;
