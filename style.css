@@ -1,4 +1,5 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -411,7 +412,6 @@ p {
 	width:90% auto;
 	height:auto;
 	text-align:center;
-	
 }
 .client-wrap h1{
 	font-size:60px;
@@ -474,6 +474,75 @@ p {
 	transition: .5s;
 }
 /* End Partners Secion */
+
+/* Donation Section */
+.donations{
+	font-family: 'Muli', sans-serif;
+	background-color: #e4fdda;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+	margin: 0;
+}
+.donations .box {
+	background-color: #fff;
+  	box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.1);
+	border-radius: 20px;
+	padding: 40px 60px;
+	position: relative;
+	
+}
+
+.donations .box::before {
+	background-color: #FF3D44;
+	border-radius: 30px;
+	content: '';
+	opacity: 1;
+	position: absolute;
+	bottom: -30px;
+	right: -30px;
+	height: 220px;
+	width: 300px;
+	z-index: -1;
+}
+
+.box img {
+	display: block;
+	margin-top: -60px;
+	margin-bottom: 10px;
+	width: 50px;
+}
+
+.box h2 {
+	margin: 0;
+	font-size:25px;
+}
+
+.box p {
+	line-height: 24px;
+	font-family: 'Muli', sans-serif;
+	font-size:18px;
+	padding:5px;
+}
+
+.btn {
+	border-radius: 5px;
+  	box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.1);
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+    align-items:center;
+	justify-content:center;
+	font-size:18px;
+}
+
+.btn.mchanga {
+	background-color: #499649;
+	margin-right: 10px;
+}
+/* End Donation Section */
 
 /* About Section */
 #about .about {
